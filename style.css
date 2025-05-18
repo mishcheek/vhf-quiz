@@ -10,40 +10,43 @@ body {
 
 .quiz-container {
   background-color: #fff;
-  padding: 30px;
+  padding: 20px; /* Adjust padding for smaller screens */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Center align text within the quiz container */
+  text-align: center;
+  width: 90%; /* Make the container take up more width on smaller screens */
+  max-width: 600px; /* But limit the maximum width on larger screens */
 }
 
 h1 {
   color: #007bff;
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* Adjust margin for smaller screens */
+  font-size: 1.5em; /* Adjust font size for smaller screens */
 }
 
 #question-container {
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* Adjust margin for smaller screens */
 }
 
 #question {
-  font-size: 1.2em; /* Slightly larger font size for better readability */
-  line-height: 1.6; /* Improved line height for longer questions */
-  color: #333; /* Darker text color for better contrast */
-  margin-bottom: 15px; /* Add some space below the question */
+  font-size: 1.1em; /* Adjust font size for smaller screens */
+  line-height: 1.5; /* Adjust line height for smaller screens */
+  color: #333;
+  margin-bottom: 10px; /* Adjust margin for smaller screens */
 }
 
 #options-container button {
   display: block;
   width: 100%;
-  padding: 12px; /* Slightly more padding for better touch targets and visual spacing */
-  margin-bottom: 10px;
+  padding: 12px;
+  margin-bottom: 8px; /* Adjust margin for smaller screens */
   border: 1px solid #ccc;
-  border-radius: 6px; /* Slightly more rounded corners */
+  border-radius: 6px;
   cursor: pointer;
-  text-align: left; /* Keep options text aligned to the left for better readability */
+  text-align: center; /* Center the answer text */
   transition: background-color 0.3s ease, color 0.3s ease,
     border-color 0.3s ease;
-  font-size: 1em; /* Ensure option text is also readable */
+  font-size: 1em;
 }
 
 #options-container button:hover {
@@ -60,7 +63,7 @@ h1 {
   background-color: #d4edda;
   color: #155724;
   border-color: #c3e6cb;
-  font-weight: bold; /* Make correct answer stand out more */
+  font-weight: bold;
 }
 
 #options-container button.incorrect-answer {
@@ -71,14 +74,17 @@ h1 {
 
 #submit-button,
 #next-button {
-  padding: 12px 24px; /* Adjust button padding */
+  display: block; /* Ensure buttons take full width on smaller screens */
+  width: 80%; /* Adjust button width */
+  max-width: 300px; /* Limit maximum button width */
+  margin: 15px auto; /* Center the buttons horizontally */
+  padding: 12px 24px;
   border: none;
-  border-radius: 6px; /* More rounded buttons */
+  border-radius: 6px;
   background-color: #007bff;
   color: white;
   cursor: pointer;
-  font-size: 1.1em; /* Slightly larger button text */
-  margin-top: 20px; /* More space above buttons */
+  font-size: 1.1em;
   transition: background-color 0.3s ease;
 }
 
@@ -88,9 +94,9 @@ h1 {
 }
 
 #feedback {
-  margin-top: 20px;
+  margin-top: 15px; /* Adjust margin for smaller screens */
   font-weight: bold;
-  text-align: center; /* Center align feedback text as well */
+  text-align: center;
 }
 
 .correct {
