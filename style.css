@@ -10,40 +10,71 @@ body {
 
 .quiz-container {
   background-color: #fff;
-  padding: 20px; /* Adjust padding for smaller screens */
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 90%; /* Make the container take up more width on smaller screens */
-  max-width: 600px; /* But limit the maximum width on larger screens */
+  width: 90%;
+  max-width: 600px;
 }
 
 h1 {
   color: #007bff;
-  margin-bottom: 15px; /* Adjust margin for smaller screens */
-  font-size: 1.5em; /* Adjust font size for smaller screens */
+  margin-bottom: 20px;
+  font-size: 1.8em; /* Slightly larger heading */
+}
+
+#category-selection {
+  margin-bottom: 30px; /* Add more space below the category selection */
+}
+
+#category-selection h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.category-button {
+  display: block; /* Make buttons stack vertically */
+  width: 80%; /* Adjust button width */
+  max-width: 300px; /* Limit maximum button width */
+  padding: 15px 20px; /* More padding for a larger button */
+  margin: 10px auto; /* Center buttons horizontally and add vertical spacing */
+  border: none;
+  border-radius: 8px; /* More rounded corners */
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out; /* Add transition for hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.category-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.02); /* Slight scale up on hover */
 }
 
 #question-container {
-  margin-bottom: 15px; /* Adjust margin for smaller screens */
+  margin-bottom: 15px;
 }
 
 #question {
-  font-size: 1.1em; /* Adjust font size for smaller screens */
-  line-height: 1.5; /* Adjust line height for smaller screens */
+  font-size: 1.1em;
+  line-height: 1.5;
   color: #333;
-  margin-bottom: 10px; /* Adjust margin for smaller screens */
+  margin-bottom: 10px;
 }
 
 #options-container button {
   display: block;
   width: 100%;
   padding: 12px;
-  margin-bottom: 8px; /* Adjust margin for smaller screens */
+  margin-bottom: 8px;
   border: 1px solid #ccc;
   border-radius: 6px;
   cursor: pointer;
-  text-align: center; /* Center the answer text */
+  text-align: center;
   transition: background-color 0.3s ease, color 0.3s ease,
     border-color 0.3s ease;
   font-size: 1em;
@@ -74,27 +105,29 @@ h1 {
 
 #submit-button,
 #next-button {
-  display: block; /* Ensure buttons take full width on smaller screens */
-  width: 80%; /* Adjust button width */
-  max-width: 300px; /* Limit maximum button width */
-  margin: 15px auto; /* Center the buttons horizontally */
-  padding: 12px 24px;
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto; /* More margin for better spacing */
+  padding: 15px 20px; /* More padding for consistent button style */
   border: none;
-  border-radius: 6px;
+  border-radius: 8px; /* More rounded corners */
   background-color: #007bff;
   color: white;
-  cursor: pointer;
   font-size: 1.1em;
-  transition: background-color 0.3s ease;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #submit-button:hover,
 #next-button:hover {
   background-color: #0056b3;
+  transform: scale(1.02);
 }
 
 #feedback {
-  margin-top: 15px; /* Adjust margin for smaller screens */
+  margin-top: 15px;
   font-weight: bold;
   text-align: center;
 }
