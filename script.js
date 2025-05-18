@@ -22,9 +22,20 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function loadCategory() {
-    if (currentCategoryIndex < questionsData.length) {
+    if (questionsData && currentCategoryIndex < questionsData.length) {
       const currentCategory = questionsData[currentCategoryIndex];
-      loadQuestion(currentCategory.questions[currentQuestionIndex]);
+      if (
+        currentCategory.questions &&
+        currentQuestionIndex < currentCategory.questions.length
+      ) {
+        loadQuestion(currentCategory.questions[currentQuestionIndex]);
+      } else if (questionsData.length > currentCategoryIndex + 1) {
+        currentQuestionIndex = 0;
+        currentCategoryIndex++;
+        loadCategory();
+      } else {
+        endQuiz();
+      }
     } else {
       endQuiz();
     }
@@ -32,21 +43,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function loadQuestion(questionObj) {
     questionElement.textContent = questionObj.question;
-    optionsContainer.innerHTML = ""; // Clear previous options
+    optionsContainer.innerHTML = "";
     questionObj.options.forEach((option) => {
       const button = document.createElement("button");
       button.textContent = option;
       button.addEventListener("click", () => selectOption(option));
       optionsContainer.appendChild(button);
     });
-    feedbackElement.textContent = ""; // Clear previous feedback
+    feedbackElement.textContent = "";
     submitButton.style.display = "block";
     nextButton.style.display = "none";
-    selectedAnswer = null; // Reset selected answer
+    selectedAnswer = null;
+    // Remove any previous highlighting
+    optionsContainer.querySelectorAll("button").forEach((btn) => {
+      btn.classList.remove("correct-answer");
+      btn.classList.remove("incorrect-answer");
+    });
   }
 
   function selectOption(option) {
-    // Deselect previously selected option
     const currentActive = document.querySelector(
       "#options-container button.selected"
     );
@@ -64,30 +79,63 @@ document.addEventListener("DOMContentLoaded", () => {
 
   submitButton.addEventListener("click", () => {
     if (selectedAnswer) {
-      const currentCategory = questionsData[currentCategoryIndex];
-      const currentQuestion = currentCategory.questions[currentQuestionIndex];
-      if (selectedAnswer === currentQuestion.answer) {
-        feedbackElement.textContent = "Correct!";
-        feedbackElement.className = "correct";
-      } else {
-        feedbackElement.textContent = `Incorrect. The correct answer is: ${currentQuestion.answer}`;
-        feedbackElement.className = "incorrect";
+      if (
+        questionsData &&
+        questionsData[currentCategoryIndex] &&
+        questionsData[currentCategoryIndex].questions &&
+        questionsData[currentCategoryIndex].questions[currentQuestionIndex]
+      ) {
+        const currentQuestion =
+          questionsData[currentCategoryIndex].questions[currentQuestionIndex];
+        const answerButtons = Array.from(optionsContainer.children);
+        const correctAnswerButton = answerButtons.find(
+          (btn) => btn.textContent === currentQuestion.answer
+        );
+        const selectedAnswerButton = answerButtons.find(
+          (btn) => btn.textContent === selectedAnswer
+        );
+
+        if (selectedAnswer === currentQuestion.answer) {
+          feedbackElement.textContent = "Correct!";
+          feedbackElement.className = "correct";
+          if (correctAnswerButton) {
+            correctAnswerButton.classList.add("correct-answer");
+          }
+        } else {
+          feedbackElement.textContent = `Incorrect. The correct answer is: ${currentQuestion.answer}`;
+          feedbackElement.className = "incorrect";
+          if (selectedAnswerButton) {
+            selectedAnswerButton.classList.add("incorrect-answer");
+          }
+          if (
+            correctAnswerButton &&
+            selectedAnswer !== currentQuestion.answer
+          ) {
+            correctAnswerButton.classList.add("correct-answer");
+          }
+        }
+        submitButton.style.display = "none";
+        nextButton.style.display = "block";
       }
-      submitButton.style.display = "none";
-      nextButton.style.display = "block";
     } else {
       feedbackElement.textContent = "Please select an answer.";
-      feedbackElement.className = "incorrect"; // Or just leave it without a class
+      feedbackElement.className = "incorrect";
     }
   });
 
   nextButton.addEventListener("click", () => {
     currentQuestionIndex++;
-    const currentCategory = questionsData[currentCategoryIndex];
-    if (currentQuestionIndex < currentCategory.questions.length) {
-      loadQuestion(currentCategory.questions[currentQuestionIndex]);
+    if (
+      questionsData &&
+      questionsData[currentCategoryIndex] &&
+      currentQuestionIndex <
+        questionsData[currentCategoryIndex].questions.length
+    ) {
+      loadQuestion(
+        questionsData[currentCategoryIndex].questions[currentQuestionIndex]
+      );
     } else {
-      currentQuestionIndex = 0; // Reset question index for the next category
+      currentQuestionIndex = 0;
       currentCategoryIndex++;
       loadCategory();
     }
