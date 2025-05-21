@@ -39,9 +39,11 @@ document.addEventListener("DOMContentLoaded", () => {
     categoryButtons.forEach((button) => {
       button.addEventListener("click", function () {
         currentCategoryName = this.dataset.category;
-        currentCategoryQuestions =
-          questionsData.find((cat) => cat.category === currentCategoryName)
-            ?.questions || [];
+        // Get the questions and shuffle them
+        currentCategoryQuestions = shuffleArray([
+          ...(questionsData.find((cat) => cat.category === currentCategoryName)
+            ?.questions || []),
+        ]);
         categorySelection.style.display = "none";
         questionContainer.style.display = "block";
         submitButton.style.display = "block";
