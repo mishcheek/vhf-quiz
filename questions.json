@@ -661,6 +661,388 @@
           "pokračování rádiového klidu"
         ],
         "answer": "ukončení rádiového klidu"
+      },
+      {
+        "question": "Jaký EPIRB je oficiální součástí systému GMDSS?",
+        "options": [
+          "EPIRB s pracovní frekvencí 406 MHz pro systém COSPAS-SARSAT, nově varianta s vestavěným GPS a s vysíláním dohledávacího signálu 121,5 MHz",
+          "EPIRB s pracovní frekvencí 121,5 MHz",
+          "EPIRB s automatickou aktivací"
+        ],
+        "answer": "EPIRB s pracovní frekvencí 406 MHz pro systém COSPAS-SARSAT, nově varianta s vestavěným GPS a s vysíláním dohledávacího signálu 121,5 MHz"
+      },
+      {
+        "question": "Jak se aktivuje EPIRB?",
+        "options": [
+          "aktivuje se manuálně nebo automaticky (pokud je vybaven hydrostatickou pojistkou) po vynoření se z hloubky 4 m, v níž se při potápění lodě automaticky uvolní z držáku",
+          "aktivuje se pouze manuálně",
+          "aktivuje se automaticky po kontaktu s vodou"
+        ],
+        "answer": "aktivuje se manuálně nebo automaticky (pokud je vybaven hydrostatickou pojistkou) po vynoření se z hloubky 4 m, v níž se při potápění lodě automaticky uvolní z držáku"
+      },
+      {
+        "question": "Co jsou NON-SOLAS lodě?",
+        "options": [
+          "jsou to lodě, na něž se nevztahuje úmluva SOLAS, tzn. lodě, které nejsou určeny pro přepravu více než 12 cestujících (passenger ship) a nákladní lodě s prostorností menší než 300 tun (patří sem i malá sportovní a rekreační plavidla)",
+          "jsou to lodě, které splňují úmluvu SOLAS",
+          "jsou to vojenské lodě"
+        ],
+        "answer": "jsou to lodě, na něž se nevztahuje úmluva SOLAS, tzn. lodě, které nejsou určeny pro přepravu více než 12 cestujících (passenger ship) a nákladní lodě s prostorností menší než 300 tun (patří sem i malá sportovní a rekreační plavidla)"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - A",
+        "options": ["Alpha", "Bravo", "Charlie"],
+        "answer": "Alpha"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - B",
+        "options": ["Bravo", "Foxtrot", "Golf"],
+        "answer": "Bravo"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - C",
+        "options": ["Charlie", "Golf", "Hotel"],
+        "answer": "Charlie"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - D",
+        "options": ["Delta", "Hotel", "India"],
+        "answer": "Delta"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - E",
+        "options": ["Echo", "India", "Juliet"],
+        "answer": "Echo"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - F",
+        "options": ["Foxtrott", "Juliett", "Kilo"],
+        "answer": "Foxtrott"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - G",
+        "options": ["Golf", "Kilo", "Lima"],
+        "answer": "Golf"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - H",
+        "options": ["Hotel", "Lima", "Mike"],
+        "answer": "Hotel"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - I",
+        "options": ["India", "Mike", "November"],
+        "answer": "India"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - J",
+        "options": ["Juliett", "November", "Oscar"],
+        "answer": "Juliett"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - K",
+        "options": ["Kilo", "Oscar", "Papa"],
+        "answer": "Kilo"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - L",
+        "options": ["Lima", "Papa", "Quebec"],
+        "answer": "Lima"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - M",
+        "options": ["Mike", "Quebec", "Romeo"],
+        "answer": "Mike"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - N",
+        "options": ["November", "Romeo", "Sierra"],
+        "answer": "November"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - O",
+        "options": ["Oscar", "Sierra", "Tango"],
+        "answer": "Oscar"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - P",
+        "options": ["Papa", "Tango", "Uniform"],
+        "answer": "Papa"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - Q",
+        "options": ["Quebec", "Uniform", "Victor"],
+        "answer": "Quebec"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - R",
+        "options": ["Romeo", "Victor", "Whisky"],
+        "answer": "Romeo"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - S",
+        "options": ["Sierra", "Whisky", "X-ray"],
+        "answer": "Sierra"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - T",
+        "options": ["Tango", "X-ray", "Yankee"],
+        "answer": "Tango"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - U",
+        "options": ["Uniform", "Yankee", "Zulu"],
+        "answer": "Uniform"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - V",
+        "options": ["Victor", "Alpha", "Bravo"],
+        "answer": "Victor"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - W",
+        "options": ["Whisky", "Bravo", "Charlie"],
+        "answer": "Whisky"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - X",
+        "options": ["X-ray", "Charlie", "Delta"],
+        "answer": "X-ray"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - Y",
+        "options": ["Yankee", "Delta", "Echo"],
+        "answer": "Yankee"
+      },
+      {
+        "question": "Hláskovací abeceda (Mezinárodní) - Z",
+        "options": ["Zulu", "Echo", "Foxtrot"],
+        "answer": "Zulu"
+      },
+      {
+        "question": "Při použití mezinárodní hláskovací abecedy se znak „@“ (tzv. zavináč) vyjádří výrazem:",
+        "options": ["AT", "COMMERCIAL AT", "ZAVINAC"],
+        "answer": "AT"
+      },
+      {
+        "question": "PTT je označení tlačítka, jehož stisknutím u zapnuté radiostanice dojde",
+        "options": [
+          "k umožnění vysílání řeči",
+          "k zapnutí radiostanice",
+          "k nastavení hlasitosti"
+        ],
+        "answer": "k umožnění vysílání řeči"
+      },
+      {
+        "question": "Správná zkratka pro „Mezinárodní námořní organizace“",
+        "options": ["IMO", "ITU", "SOLAS"],
+        "answer": "IMO"
+      },
+      {
+        "question": "Správná zkratka pro „mezinárodní Úmluva o bezpečnosti lidského života na moři“",
+        "options": ["SOLAS", "GMDSS", "MMSI"],
+        "answer": "SOLAS"
+      },
+      {
+        "question": "Správná zkratka pro „odpovídač pro účely pátrání a záchrany“",
+        "options": ["SART", "EPIRB", "DSC"],
+        "answer": "SART"
+      },
+      {
+        "question": "Správná zkratka pro „koordinovaný světový čas“",
+        "options": ["UTC", "GMT", "TAI"],
+        "answer": "UTC"
+      },
+      {
+        "question": "Jaký standardní výraz použijete, pokud ve Vámi vysílané zprávě uděláte chybu a potřebujete ji opravit?",
+        "options": ["CORRECTION", "MAYDAY", "PAN PAN"],
+        "answer": "CORRECTION"
+      },
+      {
+        "question": "Co znamená standardní výraz I SPELL?",
+        "options": [
+          "budu hláskovat pomocí mezinárodní hláskovací abecedy",
+          "opakujte",
+          "nerozumím"
+        ],
+        "answer": "budu hláskovat pomocí mezinárodní hláskovací abecedy"
+      },
+      {
+        "question": "Co znamená výraz SAY AGAIN?",
+        "options": [
+          "opakujte (zprávu nebo její část, které jsem nerozuměl)",
+          "rozumím",
+          "opakuji"
+        ],
+        "answer": "opakujte (zprávu nebo její část, které jsem nerozuměl)"
+      },
+      {
+        "question": "V jaké situaci použijete výraz I REPEAT?",
+        "options": [
+          "zdůraznění – opakuji část zprávy, která je důležitá",
+          "žádám o opakování",
+          "ukončuji vysílání"
+        ],
+        "answer": "zdůraznění – opakuji část zprávy, která je důležitá"
+      },
+      {
+        "question": "Jaký standardní výraz použijete při žádosti o kontrolu signálu?",
+        "options": ["RADIO CHECK", "SEELONCE MAYDAY", "SEELONCE FINI"],
+        "answer": "RADIO CHECK"
+      },
+      {
+        "question": "Správná zkratka pro „identifikační číslo námořní pohyblivé služby",
+        "options": ["MMSI", "IMO", "DSC"],
+        "answer": "MMSI"
+      },
+      {
+        "question": "Správná zkratka pro „rádiová bóje označující místo katastrofy“",
+        "options": ["EPIRB", "SART", "AIS"],
+        "answer": "EPIRB"
+      },
+      {
+        "question": "Výraz „RIJEKA RADIO“ znamená",
+        "options": [
+          "volací značka pobřežní stanice RIJEKA",
+          "jméno lodi",
+          "typ radiostanice"
+        ],
+        "answer": "volací značka pobřežní stanice RIJEKA"
+      },
+      {
+        "question": "Výraz „CALLSIGN“ znamená",
+        "options": ["volací značka", "název lodi", "typ zprávy"],
+        "answer": "volací značka"
+      },
+      {
+        "question": "Výraz „ROGER“ znamená",
+        "options": ["rozumím (při odpovědi na příkaz)", "opakujte", "zápor"],
+        "answer": "rozumím (při odpovědi na příkaz)"
+      },
+      {
+        "question": "Výraz „LATITUDE“ znamená",
+        "options": ["zeměpisná šířka", "zeměpisná délka", "nadmořská výška"],
+        "answer": "zeměpisná šířka"
+      },
+      {
+        "question": "Výraz „LONGITUDE“ znamená",
+        "options": ["zeměpisná délka", "zeměpisná šířka", "hloubka"],
+        "answer": "zeměpisná délka"
+      },
+      {
+        "question": "Výraz „DEGREE“ znamená",
+        "options": ["stupeň", "minuta", "vteřina"],
+        "answer": "stupeň"
+      },
+      {
+        "question": "Zprávy NAVTEX na kmitočtu 518 kHz jsou vysílány v jazyce",
+        "options": ["anglickém", "německém", "francouzském"],
+        "answer": "anglickém"
+      },
+      {
+        "question": "Dosah stanice systému NAVTEX na kmitočtu 518 kHz činí",
+        "options": ["200–400 NM", "50-100 NM", "1000 NM"],
+        "answer": "200–400 NM"
+      },
+      {
+        "question": "Přesnost určení místa katastrofy z vysílání EPIRBu 406 MHz (bez integrovaného GNSS přijímače) činí zhruba",
+        "options": ["5 km", "100 m", "1 NM"],
+        "answer": "5 km"
+      },
+      {
+        "question": "EPIRB 406 MHz se aktivuje manuálně nebo",
+        "options": [
+          "automaticky pomocí hydrostatické pojistky (pokud je instalována), když se loď potápí",
+          "automaticky při kontaktu s vodou",
+          "pouze manuálně"
+        ],
+        "answer": "automaticky pomocí hydrostatické pojistky (pokud je instalována), když se loď potápí"
+      },
+      {
+        "question": "SART 9 GHz slouží k",
+        "options": [
+          "lokalizaci (finálnímu vyhledání) trosečníků na místě katastrofy",
+          "navigaci",
+          "komunikaci s pobřežními stanicemi"
+        ],
+        "answer": "lokalizaci (finálnímu vyhledání) trosečníků na místě katastrofy"
+      },
+      {
+        "question": "Jak může být zvětšen dosah transpondéru SART?",
+        "options": [
+          "SART by měl být umístěn co nejvýše a ve vertikální poloze",
+          "zvýšením výkonu",
+          "použitím delší antény"
+        ],
+        "answer": "SART by měl být umístěn co nejvýše a ve vertikální poloze"
+      },
+      {
+        "question": "Tísňové volání DISTRESS ALERT vyslané omylem z EPIRBu v teritoriálních vodách zrušíme",
+        "options": [
+          "na kanálu 16 doporučenou radiotelefonní formulací “Please, cancel my distress alert of (time UTC)“",
+          "vypnutím EPIRBu",
+          "kontaktováním pobřežní stráže"
+        ],
+        "answer": "na kanálu 16 doporučenou radiotelefonní formulací “Please, cancel my distress alert of (time UTC)“"
+      },
+      {
+        "question": "Průkaz SRC opravňuje k obsluze zařízení pro kmitočty",
+        "options": ["pouze VKV (VHF)", "KV i VKV", "pouze KV (HF)"],
+        "answer": "pouze VKV (VHF)"
+      },
+      {
+        "question": "Přeložte do češtiny (pište čitelně, čísla nepište slovy, ale číslicemi): Mayday, this is motor boat Aida, position 36 degrees 55.4 minutes north, 011 degrees 38.2 minutes west, at 0517 UTC collision with an unknown drifting object, immediate assistance required, five persons on board, boat seriously damaged, over.",
+        "options": [
+          "Mayday, tady je motorový člun Aida, na pozici 36 stupňů, 55 celých 4 minut severní šířky a 011 stupňů, 38 celých 2 minut západní délky, v čase 05:17 UTC srážka s neznámým plovoucím objektem, žádáme okamžitou pomoc, pět osob na palubě, člun je vážně poškozený, přepínám.",
+          "Tísňové volání, motorový člun Aida, pozice... (atd.)",
+          "Pomoc, motorový člun Aida hlásí srážku..."
+        ],
+        "answer": "Mayday, tady je motorový člun Aida, na pozici 36 stupňů, 55 celých 4 minut severní šířky a 011 stupňů, 38 celých 2 minut západní délky, v čase 05:17 UTC srážka s neznámým plovoucím objektem, žádáme okamžitou pomoc, pět osob na palubě, člun je vážně poškozený, přepínám."
+      },
+      {
+        "question": "Přeložte do češtiny (piště čitelně, čísla nepište slovy, ale číslicemi): Mayday, yacht Marbello, position exactly north of Cap Gris Nez Lighthouse five nautical miles, crew member has fallen from mast and is badly injured, immediate medical assistance required",
+        "options": [
+          "Mayday, jachta Marbello, pozice přesně na sever od majáku Cap Gris Nez 5 NM, člen posádky spadl ze stěžně a je vážně zraněn, žádáme okamžitou lékařskou pomoc",
+          "Jachta Marbello hlásí nehodu...",
+          "Tísňové volání od jachty Marbello..."
+        ],
+        "answer": "Mayday, jachta Marbello, pozice přesně na sever od majáku Cap Gris Nez 5 NM, člen posádky spadl ze stěžně a je vážně zraněn, žádáme okamžitou lékařskou pomoc"
+      },
+      {
+        "question": "Přeložte do češtiny (piště čitelně, čísla nepište slovy, ale číslicemi): All stations, this is Belfast Coast Guard. New gale warning issued at 0935 UTC for sea area Hebrides. Gale force 8 with heavy rain expected soon.",
+        "options": [
+          "Všem stanicím, tady je pobřežní stráž Belfast. Nové varování před bouří, vydané v čase 09:35 UTC pro oblast Hebridy. Bouřlivý vítr síly 8 se silným deštěm očekáván brzy.",
+          "Pobřežní stráž Belfast hlásí varování...",
+          "Pozor, bouře se blíží k oblasti Hebridy..."
+        ],
+        "answer": "Všem stanicím, tady je pobřežní stráž Belfast. Nové varování před bouří, vydané v čase 09:35 UTC pro oblast Hebridy. Bouřlivý vítr síly 8 se silným deštěm očekáván brzy."
+      },
+      {
+        "question": "Sestavte tísňovou zprávu v angličtině (piště čitelně, čísla nepište slovy, ale číslicemi): Motorová jachta Hermes, na pozici 50° 24.5' N 01° 23.3' W, loď hoří. 4 osoby, chystáte se opustit loď v záchranném ostrůvku.",
+        "options": [
+          "Mayday, this is motor yacht Hermes, position 50 degrees 24 point 5 minutes north, 01 degrees 23 point 3 minutes west. Boat on fire. Require immediate assistance. 4 persons on board, abandoning to liferaft. Over.",
+          "Mayday, motor yacht Hermes on fire...",
+          "Attention, Hermes yacht reports fire..."
+        ],
+        "answer": "Mayday, this is motor yacht Hermes, position 50 degrees 24 point 5 minutes north, 01 degrees 23 point 3 minutes west. Boat on fire. Require immediate assistance. 4 persons on board, abandoning to liferaft. Over."
+      },
+      {
+        "question": "Sestavte tísňovou zprávu v angličtině (piště čitelně, čísla nepište slovy, ale číslicemi): Plachetnice Tango, na pozici 255° od majáku ostrova Brijuni, vzdálenost 2 NM. Loď najela na skálu a potápí se. Na palubě jste 4, z toho 2 děti. Střílíte červené padáčkové světlice.",
+        "options": [
+          "Mayday, sailing yacht Tango. Position 255 degrees from Brijuni island lighthouse, 2 nautical miles. Grounded rock and sinking. Require immediate assistance. 4 persons on board, including 2 children. Firing red parachute rockets. Over.",
+          "Mayday, sailing yacht Tango, collision with rock...",
+          "Urgent assistance needed, sailing yacht Tango..."
+        ],
+        "answer": "Mayday, sailing yacht Tango. Position 255 degrees from Brijuni island lighthouse, 2 nautical miles. Grounded rock and sinking. Require immediate assistance. 4 persons on board, including 2 children. Firing red parachute rockets. Over."
+      },
+      {
+        "question": "Sestavte tísňovou zprávu v angličtině (piště čitelně, čísla nepište slovy, ale číslicemi): Plachetnice Adria, na pozici 06º 24.3' N 42º 36.7' W. Ztratili jste člena posádky, naštěstí měl záchrannou vestu. Naposledy jste ho viděli v 03:25 místního času. Na lodi jste zbyli 3, po člověku ve vodě stále pátráme.",
+        "options": [
+          "Mayday, yacht Adria. Position 06º 24.3' N 42º 36.7' W. Man overboard. Require immediate assistance. 3 persons on board. Person in water wearing lifejacket. We keep searching. Over.",
+          "Mayday, Adria yacht reports man overboard...",
+          "Sailing yacht Adria needs help, lost crew member..."
+        ],
+        "answer": "Mayday, yacht Adria. Position 06º 24.3' N 42º 36.7' W. Man overboard. Require immediate assistance. 3 persons on board. Person in water wearing lifejacket. We keep searching. Over."
       }
     ]
   },
